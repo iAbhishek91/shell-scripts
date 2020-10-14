@@ -29,6 +29,10 @@ if [ $c == 'abhishek' ]; then
 	echo "yes I am abhishek"
 fi
 
+c2='sutapa'
+
+if [ $c2 \> $c ]; then echo "$c2 is greater than $c"
+else echo "$c is greater than $c2"; fi
 # =============================================
 # SUB STRING USING REGEX
 
